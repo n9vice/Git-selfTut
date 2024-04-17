@@ -6,3 +6,19 @@ int main () {
 cout<<"This is a bravo website";
 return o;
 }
+
+------------------------
+
+int sum (int a, int b) {
+ int s = 0;
+ s = a + b;
+
+  return s;
+}
+
+int main () {
+  int x=11, y=31;
+  cout<<sum(x, y);
+}
+ 
+
