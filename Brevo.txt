@@ -8,11 +8,9 @@ return o;
 }
 
 ------------------------
-
-int sum (int a, int b) {
- int s = 0;
+int sum(int a, int b) {
+ int s; //changed here, no needed s=0
  s = a + b;
-
   return s;
 }
 
